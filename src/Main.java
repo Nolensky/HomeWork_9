@@ -31,11 +31,10 @@ public class Main {
         System.out.println(" ");
         System.out.println("Задача 3");
             double sumPayments2 = 0;
-            double averagePayment;
         for (int elementPayments : payments) {
             sumPayments2 += elementPayments;
         }
-        averagePayment = sumPayments2 / 5;
+        double averagePayment = sumPayments2 / payments.length;
         System.out.println("Средняя сумма трат за месяц составила " + averagePayment + " рублей");
         System.out.println(" ");
         System.out.println("Задача 4");
